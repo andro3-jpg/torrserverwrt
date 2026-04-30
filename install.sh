@@ -135,7 +135,7 @@ installTorrServer() {
     binName="TorrServer-linux-arm64"
     [ ! -d "$dirInstall" ] && mkdir -p "$dirInstall"
     
-    urlBin="https://github.com/YouROK/TorrServer/releases/download/MatriX.136/TorrServer-linux-arm64"
+    urlBin="https://github.com/YouROK/TorrServer/releases/download/MatriX.141/TorrServer-linux-arm64"
     
     echo " Загружаем TorrServer..."
     curl -L -o "$dirInstall/$binName" "$urlBin"
